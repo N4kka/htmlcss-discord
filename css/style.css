@@ -44,6 +44,11 @@ img {
     width: 100%;
 }
 
+.align {
+    text-align: center;
+    line-height: 2em;
+}
+
 .white-text {
     height: 450px;
     padding-top: 4em;
@@ -205,9 +210,42 @@ header {
     font-size: 1.2em;
 }
 
+/* 4th SECTION */
+.last-section .large-btn {
+    color: black;
+    background-color: #3161e0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.last-section {
+    margin-bottom: 2em;
+    line-height: 3em;
+    text-align: center;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-size: 50%;
+}
+
+.stars .btn {
+    color: white;
+}
+
+.mini-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* FOOTER */
 footer {
     height: 600px;
     background-color: #23272a;
+}
+
+.vt-align {
+    vertical-align: super;
 }
 
 .section-title {
