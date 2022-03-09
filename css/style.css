@@ -26,7 +26,7 @@ main {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -89,7 +89,7 @@ img {
 } 
 
 .section-2 {
-    background-color: lightgray;
+    background-image: url(../img/wave.svg);
 }
 
 .pr-1 {
@@ -185,10 +185,6 @@ header {
     
 }
 
-.jumbotron-content .text {
-    font-weight: bolder;
-}
-
 .jumbotron-btns li {
     display: inline-block;
 }
@@ -219,8 +215,7 @@ header {
 }
 
 .last-section {
-    margin-bottom: 2em;
-    line-height: 3em;
+    line-height: 8em;
     text-align: center;
 }
 
@@ -242,10 +237,6 @@ header {
 footer {
     height: 600px;
     background-color: #23272a;
-}
-
-.vt-align {
-    vertical-align: super;
 }
 
 .section-title {
