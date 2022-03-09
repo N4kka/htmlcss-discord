@@ -44,6 +44,12 @@ img {
     width: 100%;
 }
 
+.white-text {
+    color: white;
+    padding-top: 5em;
+    line-height: 2.5em;
+}
+
 /* BUTTONS */
 .btn {
     border-radius: 50px;
@@ -79,8 +85,16 @@ img {
     background-color: lightgray;
 }
 
+.footer-title {
+    color: #7288da;
+}
+
 .pr-1 {
     padding-right: 4em;
+}
+
+.pr-2 {
+    padding-right: 1em;
 }
 
 /* HEADER */
@@ -180,4 +194,13 @@ header {
 
 .col-text p {
     font-size: 1.2em;
+}
+
+footer {
+    height: 500px;
+    background-color: #23272a;
+}
+
+.section-title {
+    font-size: 1.5em;
 }
