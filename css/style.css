@@ -5,7 +5,101 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
 html {
     font-family: "Whitney" sans-serif;
     font-size: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+.white-btn {
+    background-color: white;
+    color: black;
+}
+
+.small-btn {
+    padding: .6em 1em;
+    border-radius: 50px;
+    font-size: .9em;
+}
+ 
+/* HEADER */
+header {
+    height: 60px;
+    background-color: #3161e0;
+    text-align: center;
+}
+
+.nav-logo img {
+    vertical-align: middle;
+    width: 60%;
+}
+
+.nav-logo,
+.nav-btn {
+    width: 15%;
+}
+
+.nav-center {
+    width: 70%;
+}
+
+.nav-center .header-menu a {
+    color: white;
+}
+
+.nav-center .header-menu li {
+    display: inline-block;
+    margin: 0 1.2em;
+}
+
+.header-nav {
+    line-height: 60px;
+    color: white;
+}
+
+.nav-btn a {
+    text-align: right;
+    color: black;
+}
+
+/* MAIN  */
+
+/* JUMBOTRON */
+.jumbotron {
+    height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-content {
+    margin: 0 auto;
 }
