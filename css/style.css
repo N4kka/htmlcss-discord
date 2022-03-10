@@ -88,8 +88,18 @@ img {
     padding: 2em;
 } 
 
-.section-2 {
-    background-image: url(../img/wave.svg);
+.wave img {
+    display: block;
+}
+
+.wave.down img {
+    margin-top: -2px;
+    display: block;
+    transform: rotate(180deg);
+}
+
+.bg-gray {
+    background-color: lightgray;
 }
 
 .pr-1 {
