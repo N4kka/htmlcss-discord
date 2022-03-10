@@ -229,9 +229,18 @@ header {
     text-align: center;
 }
 
+.tech {
+    padding: 0 10em;
+}
+
 .stars {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
     background-image: url(../img/stars.svg);
-    background-size: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .stars .btn {
